@@ -1,0 +1,929 @@
+ 
+ 
+ :root {
+    background-color: white;
+    color: black;
+ }
+ 
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+
+/*This is Main Cover*/
+
+
+
+
+.main-cover {
+    max-width: 100%;
+    background-color:black;
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Romanesco;
+    font-size: larger;
+  
+}
+
+
+
+.logo {
+    width: 10rem;
+    padding: 0.5rem;
+
+}
+
+
+
+.menu ul {
+    width: 30%;
+    list-style:circle;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2rem;
+    
+}
+ 
+
+
+
+.menu a {
+    text-decoration: none;
+    color: #b37b32;
+    font-size: larger;
+    padding: 1rem;
+
+}
+
+
+
+.menu a:hover {
+    color:#999;
+}
+
+
+
+ /* This is Hero*/
+
+
+
+
+.hero-container {
+    padding: 1%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(Bilder/IMG_5324.JPG);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+    
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 300%;
+    color:black;
+}
+
+
+
+.hero-container p {
+
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+
+
+
+
+.hero-container a {
+    background-color: #b37b32;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 25px;
+}
+
+
+
+.hero-container a:hover {
+    color: #999;
+}
+
+
+
+.btn a:hover {
+    color: #999;
+}
+
+
+
+/*Here starts Home box*/
+
+    
+
+.next {
+    width: 100%;
+    background-color: black;
+    color: #b37b32;
+    padding: 4rem;
+    text-align: center;
+
+}
+
+
+
+ /*Here starts Profile in Home*/
+
+
+
+
+.container {
+    width: 100%;
+    background-color:#b37b32;
+   
+}
+
+
+
+ 
+.left-content {
+    text-align:start;
+    margin-right: 20px;
+    padding: 2rem;
+    font-size: small;
+    font-style: italic;
+
+}
+
+
+
+
+ .right-content {
+    text-align: center;
+    margin-left: 30px;
+    color: #999;
+    font-size: larger;
+    font-style: oblique;
+    padding: 2rem;
+    
+}
+
+
+
+ .left-content img {
+    width: 100%;
+    height: auto;
+
+ }
+
+
+
+
+.about {
+    width: 100%;
+    background-color: #b37b32;
+    padding: 3rem;
+    color: #999;
+    font-size: x-large;
+    font-style: oblique;
+
+}
+
+
+
+
+/*This is a about skills Composition, Lightning, Timing*/
+
+
+
+
+.about-sanja {
+    width: 100%;
+    background-color:black;
+    color:#999;
+    font-family: Romanesco;
+    font-size:xx-large;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+
+
+.box-with-block {
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+.box {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+}
+
+
+
+
+
+.block {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b37b32;
+    padding: 1.5rem;
+
+}
+
+
+
+
+ .block img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding: 2rem;
+   
+ }
+
+
+ /*Begining of the About specialities box*/
+
+
+
+
+.good-at {
+    width: 100%;
+    background-color: #b37b32;
+    color: #999;
+    padding: 2rem;
+    font-family: Romanesco;
+    font-size: x-large;
+}
+
+
+
+
+.good-at p {
+    text-align: center;
+}
+
+
+
+
+.best {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    color: #b37b32;
+   
+}
+
+
+
+/*Specialities 1*/
+
+
+
+
+.specialities1 {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+.specialities1 h4 {
+    font-size: xx-large;
+    padding: 1.5rem;
+}
+
+
+
+.specialities1 p {
+    font-size: larger;
+    padding: 4rem;
+    text-align: center;
+}
+
+
+
+.specialities1 img{
+    width: 50%;
+}
+
+
+
+
+/*Specialities 2*/
+
+
+
+.specialties2 {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+
+
+.specialities2 img{
+    width: 50%;
+    padding: 1.5rem;
+    
+}
+
+
+
+.specialities2 h4 {
+    font-size: xx-large;
+    padding: 1.5rem;
+  
+}
+
+
+
+
+.specialities2 p {
+    font-size: larger;
+    padding: 7rem;
+    text-align: center;
+   
+}
+
+
+
+
+/*Specialities 3*/
+
+
+
+
+.specialities3 {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+
+.specialities3 img{
+    width: 50%;
+}
+
+
+
+.specialities3 h4 {
+    font-size: xx-large;
+    padding: 1.5rem;
+}
+
+
+
+
+.specialities3 p {
+    font-size: larger;
+    padding: 4rem;
+    text-align: center;
+    
+}
+
+
+
+/*Specialities 4*/
+
+
+
+
+.specialities4 {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+
+
+
+.specialities4 img {
+    width: 50%;
+}
+
+
+
+
+.specialities4 h4 {
+    font-size: xx-large;
+    padding: 1.5rem;
+}
+
+
+
+.specialities4 p {
+    font-size: larger;
+    padding: 4rem;
+    text-align: center;
+}
+
+
+
+/*This is Blog box with articles*/
+
+
+
+
+.name {
+    width: 100%;
+    background-color:#b37b32;
+    color: black;
+    padding: 4rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
+/*articles section*/
+
+
+
+.article {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    padding: 2rem;
+    color: #b37b32;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.article h5 {
+    font-size: xx-large;
+    padding: 3rem;
+}
+
+
+
+.article p {
+    font-style: oblique;
+    padding: 0.5rem;
+}
+
+
+
+.article img {
+    
+    width: 50%;
+    padding: 2rem;
+}
+
+
+
+ .paragraf {
+    width: 70%;
+    font-size: larger;
+    padding: 2rem;
+    text-align: center;
+
+ }
+
+
+ /*Here continues Blog*/
+
+
+
+ .blog-section {
+    width: 100%;
+    background-color: rgb(212, 212, 194);
+    color: #b37b32;
+    padding: 2rem;
+    
+}
+
+
+
+ .blog-item {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+ .blog-item img {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    
+}
+
+
+
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+
+ .blog-item p {
+    margin: 10px;
+}
+
+
+
+/*Here is sidebar*/
+
+
+
+
+.sidebar {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    float: inline-start;
+    justify-content: center;
+    text-align: center;
+    background-color:#b37b32;
+    color: #999;
+    margin-top: 15px;
+  
+    
+}
+
+.sidebar p {
+    font-size:xx-large;
+    padding: 0.1rem;
+    font-family: Romanesco;
+   
+}
+
+
+
+.sidebar li  {
+    margin-bottom: 10px;
+    padding: 1rem;
+    text-align: center;
+    height: 60vh; 
+    
+}
+
+
+
+ .sidebar a {
+    color: black;
+  
+}
+
+
+
+ .sidebar a:hover {
+    color: rgb(187, 177, 177);
+}
+
+
+
+ /*This is Contact box*/
+
+
+
+ .contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #b37b32;
+    padding: 0.1rem;
+}
+
+
+.form {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+   
+}
+
+
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.form textarea {
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+.form input[type="submit"] {
+    width: 30%;
+    background-color: #b37b32;
+    color: #999;
+    font-size: large;
+}
+
+
+
+/*This is Footer*/
+
+
+
+.footer {
+    width: 100%;
+    background-color:#999;
+    color: #b37b32;
+    font-style: oblique;
+    padding: 1rem;
+}
+
+
+
+.ul {
+   width: 100%;
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 2rem;
+   padding-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 560px) and (max-width:950px) {
+
+    
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    
+    .menu li {
+        margin-right: 1rem;
+    }
+
+
+    
+    .blog-item {
+        width: 45%;
+    }
+
+
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .sidebar {
+        width: 30%;
+    }
+
+
+
+
+    .box-with-block {
+        width: 100%;
+        background-color: rgb(27, 27, 27);
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+
+
+    .about-sanja {
+        background-color: rgb(27, 27, 27);
+        color: #b37b32;
+    }
+
+
+
+
+    .sidebar li {
+        height: 40vh;
+    }
+
+}
+     
+
+
+@media screen and (min-width:950px) and (max-width:1600px) {
+    
+     .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+
+    .box-with-block {
+        width: 100%;
+        background-color: rgb(247, 244, 244);
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+
+
+
+    .main-cover {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+    .menu ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+    .menu li {
+        margin-right: 1rem;
+    }
+
+
+
+
+    .specialities1 p {
+        text-align:left;
+    }
+
+
+
+    .specialities1 img {
+        padding: 3rem;
+    }
+
+
+
+    .specialities2 p{
+        text-align: right;
+    }
+
+
+
+    .specialities2 img {
+        padding: 3rem;
+    }
+
+
+
+    .specialities3 p {
+        text-align: left;
+    }
+
+
+
+    .specialities3 img {
+        padding: 3rem;
+    }
+
+
+
+    .specialities4 p {
+        text-align: right;
+    }
+
+
+
+    .specialities4 img {
+        padding: 3rem;
+    }
+
+
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+
+
+    .blog-item {
+        width: 33.3%;
+    }
+
+
+
+    .sidebar {
+        width: 20%;
+    }
+
+
+
+    .sidebar li {
+        height: 20vh;
+    }
+
+
+
+    .about-sanja {
+        background-color: white;
+        color: #b37b32;
+    }
+
+}
+
+
+
+@media screen and (min-width:400px) and (max-width: 560px) {
+   
+    .row {
+        flex-wrap: wrap;
+    }
+
+
+
+    .blog-item {
+        width: 100%;
+    }
+    
+    
+}
